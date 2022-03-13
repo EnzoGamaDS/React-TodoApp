@@ -1,0 +1,48 @@
+#container{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    padding:20px;
+}
+#content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+
+}
+.line{
+    display: flex;
+     gap: 10px;
+}
+.button{
+    min-width: 30px;
+     max-width: 30px;
+     min-height: 30px;
+     max-height: 30px;
+     border: none;
+     text-decoration: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+     font-size: 30px;
+     font-weight: bold;
+     cursor: pointer;
+
+}
+.container-card{
+    display: flex;
+     flex-direction: column;
+     gap:10px;
+     overflow-y: auto;
+     max-height:calc(100vh - 167px);
+}
+.card{
+    display: flex;
+     background:gray;
+     padding:10px;
+     flex:1;
+     justify-content:space-between;
+}
